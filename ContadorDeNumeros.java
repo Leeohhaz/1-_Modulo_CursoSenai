@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class ContadorDeNumeros {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
         System.out.println("numero: ");
-        Integer contador
-        for (int contador = 0 ; contador <=10 ; contador ++) {
-            System.out.println(multiplicador * contador);
+        int numeroFinal = entrada.nextInt();
+        // for ( inicialização, condição, incremento)
+        for (int i = 1; i <= numeroFinal; i++) {
+            System.out.println(i);
+        }
     }
 }
-
